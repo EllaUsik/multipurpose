@@ -20,3 +20,131 @@
 .content-space {
   margin: 0 215px;
 }
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #222222;
+  padding: 15px 0 25px;
+}
+
+.logo-link {
+  display: block;
+  width: 178px;
+  height: 64px;
+  background-image: url(../images/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-and-navigation-block {
+
+}
+
+.site-navigation-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.site-navigation-item {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.site-navigation-item:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.site-navigation-link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.site-navigation-link:hover {
+  text-decoration: underline;
+}
+
+.search-and-cart-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-text {
+  display: block;
+  width: 530px;
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #b3b3b3;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-button {
+  padding: 12px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #f10e34;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon-link {
+  display: block;
+  background-color: #f10e34;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.cart-icon-link:hover{
+  box-shadow: 0 0 2px 2px white;
+}
+
+.cart-icon-link:focus {
+  border: 2px solid white;
+}
+
+.about-cart {
+  width: 50px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding: 4px;
+}
+
+.total-cost {
+  font-size: 14px;
+  font-weight: bold;
+}
