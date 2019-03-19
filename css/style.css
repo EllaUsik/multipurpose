@@ -277,3 +277,156 @@ header {
 .category-sub-nav-link:hover > .category-name {
   text-decoration: underline;
 }
+
+.left-block-title-block {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eaeaea;
+}
+
+.left-block-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.next-prev-button-block {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.next-prev-deal-button {
+  width: 22px;
+  height: 22px;
+  color: white;
+  text-align: center;
+  background-color: #f10e34;
+  border: none;
+  border-radius: 50%;
+}
+
+.fa-caret-right {
+  transform: translateX(50%);
+}
+
+.next-prev-deal-button:hover:not(.opasity-button) {
+  box-shadow: 0 0 2px 2px lightgrey;
+}
+
+.next-prev-deal-button:focus {
+  outline-color: #f10e34;
+}
+
+.opasity-button {
+  background-color: #cacaca;
+}
+
+.deal-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 40px;
+  text-decoration: none;
+}
+
+.deal-picture {
+  padding: 25px 0;
+  width: 100%;
+}
+
+.hot-deal-picture {
+  width: 100%;
+  height: auto;
+  min-height: 203px;
+  background-image: url(../images/HotDealGreySnickers.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deal-discription {
+  text-decoration: none;
+  font-size: 15px;
+  color: #7f7f7f;
+}
+
+.deal-price {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.full-price {
+  text-decoration: line-through;
+  padding-right: 15px;
+}
+
+.discont-price {
+  font-weight: bold;
+  color: black;
+}
+
+.deal-mark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-star {
+  margin: 0 2px;
+  color: #ffc808;
+  font-size: 13px;
+}
+
+.special-deal-picture {
+  width: 100%;
+  height: auto;
+  min-height: 203px;
+  background-image: url(../images/SpecialDealBrownBag.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.newsletters-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.for-subscription {
+  font-size: 15px;
+  color: #7f7f7f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 20px 0 30px;
+}
+
+.input-for-email {
+  width: auto;
+  min-width: 220px;
+  height: 15px;
+  margin: 25px 0;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f3f3f3;
+}
+
+.subscribe-button {
+  text-transform: uppercase;
+  color: white;
+  background-color: #f22f49;
+  border-radius: 20px;
+  width: 133px;
+  height: 45px;
+  text-align: center;
+  font-size: 16px;
+}
