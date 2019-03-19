@@ -203,7 +203,11 @@ header {
   text-decoration: none;
 }
 
-.category-horizontal-nav-link:hover, .categories-link:hover {
+.category-horizontal-nav-link:hover {
+  text-decoration: underline;
+}
+
+.categories-link:hover > p {
   text-decoration: underline;
 }
 
@@ -253,10 +257,14 @@ header {
 .category-sub-nav-link {
   text-decoration: none;
   color: black;
-  padding-right: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 .fa-play-circle {
+  padding-right: 20px;
   font-size: 13px;
   color: #a6a6a6;
 }
@@ -266,6 +274,6 @@ header {
   color: black;
 }
 
-.category-name:hover {
+.category-sub-nav-link:hover > .category-name {
   text-decoration: underline;
 }
