@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-  width: 1600px;
+  width: auto;
   font-family: sans-serif;
   font-style: normal;
   margin-left: auto;
@@ -18,5 +18,262 @@
 }
 
 .content-space {
-  margin: 0 215px;
+  max-width: 1022px;
+  margin: 0 auto;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header {
+  background-color: #222222;
+  padding: 15px 0 25px;
+}
+
+.logo-link {
+  display: block;
+  width: 178px;
+  height: 64px;
+  background-image: url(../images/Logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search-and-navigation-block {
+
+}
+
+.site-navigation-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.site-navigation-item {
+  list-style-type: none;
+  padding: 0 15px;
+}
+
+.site-navigation-item:not(:last-child) {
+  border-right: 1px solid white;
+}
+
+.site-navigation-link {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.site-navigation-link:hover {
+  text-decoration: underline;
+}
+
+.search-and-cart-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-text {
+  display: block;
+  width: 530px;
+  padding: 12px 30px;
+  font-size: 15px;
+  color: #b3b3b3;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-button {
+  padding: 12px 20px;
+  font-size: 15px;
+  color: white;
+  background-color: #f10e34;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 3px white;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-icon-link {
+  display: block;
+  background-color: #f10e34;
+  width: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.cart-icon-link:hover{
+  box-shadow: 0 0 2px 2px white;
+}
+
+.cart-icon-link:focus {
+  border: 2px solid white;
+}
+
+.about-cart {
+  width: 50px;
+  color: white;
+  font-size: 11px;
+  text-align: center;
+  padding: 4px;
+}
+
+.total-cost {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.horizontal-nav {
+  padding: 20px 0;
+  background-color: #f10e34;
+  color: white;
+}
+
+.category-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categories {
+  padding-left: 25px;
+  padding-right: 15px;
+  width: 25%;
+}
+
+.categories-link {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fa-list-ul {
+  padding-right: 15px;
+}
+
+.category-horizontal-nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 75%;
+  padding: 0 50px;
+}
+
+.category-horizontal-nav-item {
+  list-style-type: none;
+}
+
+.category-horizontal-nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.category-horizontal-nav-link:hover {
+  text-decoration: underline;
+}
+
+.categories-link:hover > p {
+  text-decoration: underline;
+}
+
+.main-content-block {
+  background-color: #f3f3f3;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.left-block-element {
+  list-style-type: none;
+  background-color: white;
+  margin-bottom: 30px;
+  padding: 0 15px;
+  width: 25%;
+}
+
+.category-sub-nav-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.category-sub-nav-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  list-style-type: none;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.category-sub-nav-item:not(:last-child) {
+  border-bottom: 2px solid #eaeaea;
+}
+
+.category-sub-nav-link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.fa-play-circle {
+  padding-right: 20px;
+  font-size: 13px;
+  color: #a6a6a6;
+}
+
+.category-name {
+  font-size: 15px;
+  color: black;
+}
+
+.category-sub-nav-link:hover > .category-name {
+  text-decoration: underline;
 }
