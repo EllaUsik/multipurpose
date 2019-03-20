@@ -18,7 +18,7 @@
 }
 
 .content-space {
-  max-width: 1022px;
+  max-width: 1170px;
   margin: 0 auto;
 }
 
@@ -165,7 +165,7 @@ header {
 .categories {
   padding-left: 25px;
   padding-right: 15px;
-  width: 25%;
+  width: 260px;
 }
 
 .categories-link {
@@ -224,7 +224,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 100%;
+  width: 300px;
 }
 
 .left-block-element {
@@ -232,7 +232,7 @@ header {
   background-color: white;
   margin-bottom: 30px;
   padding: 0 15px;
-  width: 25%;
+  width: 270px;
 }
 
 .category-sub-nav-menu {
@@ -439,4 +439,97 @@ header {
   background-image: url(../images/BannerBodyWash.png);
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.right-block {
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-sub-block {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.right-top-baner-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-top-baner-top-block {
+  height: 376px;
+  background-image: url(../images/BannerCollection2016.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.banner-content-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 70px 30px;
+}
+
+.baner-discont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 38px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dark-blue-text {
+  color: #303a7a;
+}
+
+.big-white-text {
+  font-size: 60px;
+}
+
+.little-white-text {
+  font-size: 21px;
+}
+
+.shop-now-button {
+  margin-top: 50px;
+  border: 2px solid black;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-weight: 17px;
+  padding: 13px 35px;
+}
+
+.shop-now-button:hover {
+  box-shadow: 0 0 3px 2px black;
+}
+
+.shop-now-button:focus {
+  outline-color: black;
+}
+
+.right-top-baner-bottom-block {
+  height: 80px;
+  background-color: #f10e34;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.about-colection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.upper-bold {
+  text-transform: uppercase;
+  font-weight: bold;
 }
