@@ -306,7 +306,7 @@ header {
   height: 22px;
   color: white;
   text-align: center;
-  background-color: #f10e34;
+  background-color: #cacaca;
   border: none;
   border-radius: 50%;
 }
@@ -315,16 +315,19 @@ header {
   transform: translateX(50%);
 }
 
-.next-prev-deal-button:hover:not(.opasity-button) {
+.active:hover {
   box-shadow: 0 0 2px 2px lightgrey;
 }
+.next-prev-deal-button:focus:not(.active) {
+  outline: none;
+}
 
-.next-prev-deal-button:focus {
+.active:focus {
   outline-color: #f10e34;
 }
 
-.opasity-button {
-  background-color: #cacaca;
+.active {
+  background-color: #f10e34;
 }
 
 .deal-about {
