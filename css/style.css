@@ -228,7 +228,6 @@ header {
 }
 
 .left-block-element {
-  list-style-type: none;
   background-color: white;
   margin-bottom: 30px;
   padding: 0 15px;
@@ -337,6 +336,7 @@ header {
   width: 100%;
   padding-bottom: 40px;
   text-decoration: none;
+  color: #7f7f7f;
 }
 
 .deal-picture {
@@ -445,16 +445,22 @@ header {
   width: 72%;
   display: flex;
   flex-direction: column;
+  margin: 0 5px;
 }
 
-.right-sub-block {
-  width: 100%;
+.right-block-element {
+  width: 94%;
   margin-bottom: 40px;
+  padding: 30px 25px;
+  background: white;
 }
 
 .right-top-baner-block {
   display: flex;
   flex-direction: column;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 40px;
 }
 
 .right-top-baner-top-block {
@@ -505,7 +511,7 @@ header {
 }
 
 .shop-now-button:hover {
-  box-shadow: 0 0 3px 2px black;
+  box-shadow: 0 0 5px 3px #f10e34;
 }
 
 .shop-now-button:focus {
@@ -532,4 +538,106 @@ header {
 .upper-bold {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.new-products-block {
+
+}
+
+.right-block-title-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eaeaea;
+  padding-bottom: 25px;
+}
+
+.right-block-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.right-block-nav-and-button-block {
+  display: flex;
+  align-items: center;
+}
+
+.right-block-nav {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.right-block-nav-item {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.right-block-nav-link {
+  text-decoration: none;
+  color: #7f7f7f;
+  font-size: 15px;
+}
+
+.right-block-nav-link:hover {
+  text-decoration: underline;
+}
+
+.right-block-content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.deals-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.deal-item {
+  list-style-type: none;
+}
+
+.deal-item {
+  margin-right: 25px;
+}
+
+.deal-item:first-child {
+  margin-left: 25px;
+}
+
+.right-block-deal-about {
+  padding-bottom: 0;
+}
+
+.deal-photo {
+  width: 100%;
+  height: auto;
+  min-height: 203px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.deal-picture-right-block {
+  width: 140%;
+}
+
+.new-product-01 {
+  background-image: url(../images/NewProduct01.png);
+}
+
+.new-product-02 {
+  background-image: url(../images/NewProduct02.png);
+}
+
+.new-product-03 {
+  background-image: url(../images/NewProduct03.png);
+}
+
+.new-product-04 {
+  background-image: url(../images/NewProduct04.png);
 }
