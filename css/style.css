@@ -844,3 +844,53 @@ header {
   color: black;
   font-weight: bold;
 }
+
+.brends-block {
+  background-color: #f10e34;
+  padding: 35px 0;
+}
+
+.brends-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.brend {
+  list-style-type: none;
+  margin: 10px;
+}
+
+.brend-link {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 111px;
+  height: 100px;
+}
+
+.brend-01 {
+  background-image: url(../images/BrendLogo.png);
+}
+
+.brend-02 {
+  background-image: url(../images/BrendHotFoil.png);
+}
+
+.brend-03 {
+  background-image: url(../images/BrendBlueLine.png);
+}
+
+.brend-04 {
+  background-image: url(../images/BrendJustRide.png);
+}
+
+.brend-05 {
+  background-image: url(../images/BrendYourLogo.png);
+}
+
+.brend-06 {
+  background-image: url(../images/BrendLogo.png);
+}
