@@ -987,13 +987,13 @@ header {
 }
 
 .social-networks-lists {
-  display: flex;
-  justify-content: space-between;
   margin: 25px 0;
 }
 
 .social-networks-list {
+  height: 150px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
@@ -1084,12 +1084,11 @@ footer {
   align-items: center;
   color: white;
   font-size: 14px;
-  padding-bottom: 35px;
+  padding: 45px 0 35px;
 }
 
 .footer-nav {
   display: flex;
-  margin-top: 45px;
 }
 
 .footer-nav-item {
